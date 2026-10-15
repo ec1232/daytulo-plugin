@@ -1,0 +1,11 @@
+{
+  "name": "daytulo",
+  "version": "0.1.0",
+  "description": "Plan tasks around the time you have. Add, read, update and complete Daytulo tasks, and see your plan and free time, from your assistant.",
+  "author": { "name": "Intellingo Ltd", "email": "contact@daytulo.com" },
+  "homepage": "https://daytulo.com",
+  "repository": "https://github.com/ec1232/daytulo-plugin",
+  "license": "UNLICENSED",
+  "keywords": ["tasks", "planner", "calendar", "productivity", "planning", "mcp"],
+  "logo": "assets/logo.svg"
+}
