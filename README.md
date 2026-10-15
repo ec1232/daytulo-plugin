@@ -19,6 +19,8 @@ Read: `get_profile`, `list_tasks`, `get_task`, `list_projects`, `get_plan`, `get
 Write: `add_task`, `update_task`, `complete_task`, `reschedule_task`, `restore_task`, `create_project`, `update_project`
 Destructive (preview first, then `confirm: true`): `delete_task`, `delete_project`, `apply_changes`
 
+Tools that change or overwrite existing data (`update_task`, `complete_task`, `reschedule_task`, `restore_task`, `update_project`, and the destructive ones above) are annotated `destructiveHint: true`; `add_task` and `create_project` are additive (`destructiveHint: false`).
+
 Deleting moves items to Recently deleted for 30 days. Busy times are shared only if you turn it on; event titles are a separate opt-in. No tool sends data to other services.
 
 ## Links
