@@ -23,6 +23,15 @@ Tools that change or overwrite existing data (`update_task`, `complete_task`, `r
 
 Deleting moves items to Recently deleted for 30 days. Busy times are shared only if you turn it on; event titles are a separate opt-in. No tool sends data to other services.
 
+## Prompts
+
+Two ready-made prompts appear in clients that support MCP prompts (for connections that can read tasks or the plan):
+
+- `tidy-up` ("Tidy up my Daytulo"): reviews your plan and open tasks, flags overdue deadlines, missing estimates, duplicates and WAITING items with no follow-up date, proposes changes and waits for your OK before changing anything. Afterwards it adds anything you mention as a task with an estimate and a deadline if there is one.
+- `daily-check` ("Check my day"): reads today's plan, says what is at risk and what to do first, and changes nothing.
+
+The server also sends the assistant a short brief on first connect: read `get_plan` and `list_tasks` first, ask before changing anything, give new tasks a time estimate, add one task per call, never invent tasks.
+
 ## Links
 
 - Privacy: https://daytulo.com/legal/privacy
